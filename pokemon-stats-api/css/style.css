@@ -9,7 +9,7 @@
 
 body{
   background-color: rgb(58, 58, 207);
-  background-image: url("pokemonstatsapi/pokemon-stats-api/img/city.jpg");
+  background-image: url("../img/city.jpg");
   background-size: cover;
   color: rgb(98, 105, 214);
   text-shadow: 1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000;
