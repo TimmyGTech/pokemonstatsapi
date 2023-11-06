@@ -1,0 +1,79 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("/rainbow-badge/img/city.jpg");
+  background-color: rgb(58, 58, 207);
+  background-size: cover;
+  color: rgb(98, 105, 214);
+  text-shadow: 1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000;
+  text-align: center;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 15% 0 0 35%;
+  padding-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.459);
+  border: 10px black solid;
+  border-radius: 10px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.container{
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.527);
+  border: 10px black solid;
+  border-radius: 10px;
+  margin: 5px 30%;
+  padding: 0 4%;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+#type,#statList,#weight{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#stats{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container.hidden{
+  display: none;
+  border: none;
+  background-color: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
