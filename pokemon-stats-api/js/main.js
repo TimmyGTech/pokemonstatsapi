@@ -15,7 +15,6 @@ function getFetch(){
 
         console.log(data)
 
-        // pokeStore.push(data.types[0].type.name)
         document.querySelector("#pokeName").innerText = data.name.toUpperCase()
         document.querySelector("#shinyTitle").innerText = `SHINY ${data.name.toUpperCase()}`
 
